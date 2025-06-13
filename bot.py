@@ -22,7 +22,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
     
     # Web App ma'lumotlari
-    web_app = WebAppInfo(url="https://florix.vercel.app/")
+    web_app = WebAppInfo(url="http://florix.uz/")
 
     # Yangi, aniqroq tugma matni
     button = InlineKeyboardButton(
